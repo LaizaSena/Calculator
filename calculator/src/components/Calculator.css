@@ -1,0 +1,66 @@
+.container {
+    margin: auto;
+    max-width: 22rem;
+    height: 34rem;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+    color: #FFF;
+}
+
+.container .results {
+    margin: 1.5rem;
+    width: 18rem;
+    height: 4rem;
+    padding: 0.8rem 1rem;
+    background-color: #4F4F4F;
+    border-radius: 1rem;
+    text-align: right;
+    font-size: 3.2rem;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    margin: 0.2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    background-color: #363636;
+    color: #FFF;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: #4F4F4F;
+}
+
+.buttons .ac {
+    background-color: #008000;
+}
+
+.buttons .ac:hover {
+    background-color: #239623;
+}
+
+.buttons .operators {
+    background-color: #4169E1;
+}
+
+.buttons .operators:hover {
+    background-color: #5a7ce3;
+}
+
+.buttons .equal {
+    width: 9.5rem;
+    background-color: #1E90FF;
+}
+
+.buttons .equal:hover {
+    background-color: #51a7fd;
+}
